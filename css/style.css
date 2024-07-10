@@ -10,10 +10,12 @@
 body {
     font-family: "Azeret Mono", monospace;
 }
+/* header starts */
 header {
     width: 1440px;
     height: 772px;
 }
+/* nav starts */
 .navbar {
     width: 1440px;
     height: 120px;
@@ -41,6 +43,8 @@ header {
     cursor: pointer;
     border: 1px solid rgb(13, 19, 33);
 }
+/* nav ends */
+/* hero section starts */
 .hero {
     width: 1440px;
     height: 652px;
@@ -77,6 +81,8 @@ header {
     border-radius: 8px;
     cursor: pointer;
 }
+/* hero section ends */
+/* header ends */
 /* reason section starts */
 .reason {
     width: 1140px;
@@ -228,3 +234,55 @@ header {
     color: rgb(13, 19, 33);
 }
 /* card section ends */
+/* support section starts */
+.support {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 110px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support .support-container {
+    width: 1044px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.support .support-container h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.support .support-container p {
+    color: white;
+}
+.support .support-container form #feedback{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px;
+    border-radius: 8px;
+}
+.support .support-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.support .support-container form #submit {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border-radius: 8px;
+}
+/* support section ends */
