@@ -169,3 +169,62 @@ header {
     border-radius: 16px;
 }
 /* video section ends */
+
+/* card section starts */
+.cards {
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.cards .card-des {
+    width: 852px;
+}
+.cards .card-des h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.cards .card-des p {
+    color: rgb(13, 19, 33);
+    margin: 24px 0px;
+}
+.card-content{
+    display: flex;
+}
+.card-content .card {
+    width: 364px;
+    height: 299px;
+    text-align: left;
+    padding: 40px;
+    border-radius: 8px;
+}
+.card-content .card-1 {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.card-content .card-2 {
+    background-color: rgba(0, 76, 232, 0.05);
+    margin: 0 24px;
+}
+.card-content .card-3 {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.card-content h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 8px 0px;
+}
+.card-content p {
+    margin: 16px 0px;
+}
+.card-content a {
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+/* card section ends */
