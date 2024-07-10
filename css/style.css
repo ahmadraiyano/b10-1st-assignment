@@ -1,5 +1,171 @@
+/* Fonts Imported */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Selection */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: "Azeret Mono", monospace;
+}
+header {
+    width: 1440px;
+    height: 772px;
+}
+.navbar {
+    width: 1440px;
+    height: 120px;
+}
+.nav-container {
+    width: 1140px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name a {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.btn button {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    padding: 17px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid rgb(13, 19, 33);
+}
+.hero {
+    width: 1440px;
+    height: 652px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero .hero-container {
+    width: 998px;
+    height: 652px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.hero .hero-container img {
+    width: 240.28px;
+    height: 240px;
+}
+.hero .hero-container h1 {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+}
+.hero .hero-container button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* reason section starts */
+.reason {
+    width: 1140px;
+    height: 1395px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    margin-top: 72px;
+}
+.reason-container {
+    width: 850px;
+    height: 1395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+.reason-container .section-1 {
+    text-align: center;
+}
+.reason-container .section-1 h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.reason .reason-container .section {
+    width: 946px;
+    height: 336px;
+    display: flex;
+    padding: 48px;
+    background-color: rgb(255, 255, 255);
+}
+.reason-container .section img {
+    width: 274.17px;
+    height: 240px;
+}
+.reason-container .section .des-2-img {
+    margin-right: 32px;
+}
+.reason-container .section h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0px;
+}
+.reason-container .section  p {
+    color: rgb(13, 19, 33);
+}
+.reason-container .section button {
+    padding: 12px 20px;
+    margin: 32px 0px;
+}
+
+/* reason section Ends */
+
+/* video section starts */
+.video-showcase {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-showcase .video-des {
+    width: 852px;
+    text-align: center;
+}
+.video-showcase .video-des h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.video-showcase .video-des p {
+    margin-top: 24px;
+}
+.video-showcase .video-content {
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.video-showcase .video-content iframe {
+    border-radius: 16px;
+}
+/* video section ends */
