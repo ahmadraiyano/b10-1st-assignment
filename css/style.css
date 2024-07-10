@@ -83,6 +83,7 @@ header {
 .hero .hero-container button a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding: 21px 24px;
 }
 /* hero section ends */
 /* header ends */
@@ -138,6 +139,7 @@ header {
 .reason-container .section button {
     padding: 12px 20px;
     margin: 32px 0px;
+    cursor: pointer;
 }
 
 /* reason section Ends */
@@ -287,6 +289,7 @@ header {
     font-weight: 600;
     padding: 17px 20px;
     border-radius: 8px;
+    cursor: pointer;
 }
 /* support section ends */
 /* footer starts */
